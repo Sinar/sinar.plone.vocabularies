@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="sinar.plone.vocabularies">
+
+    <!-- -*- extra stuff goes here -*- -->
+
+    <utility
+        component=".political_parties.PoliticalPartiesFactory"
+        name="sinar.plone.vocabularies.PoliticalParties"
+    />
+
+        
+</configure>
